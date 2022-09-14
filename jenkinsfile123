@@ -1,0 +1,20 @@
+pipeline {
+
+agent any 
+
+stages {
+
+ stage('git clone') {
+   steps {
+
+      git branch:'main',url://
+    echo " cloning the code from git repository"
+        }
+
+
+      }
+
+
+
+   }
+    }
