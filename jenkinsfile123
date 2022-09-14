@@ -7,7 +7,7 @@ stages {
  stage('git clone') {
    steps {
 
-      git branch:'main',url://
+      git branch:'main',url:https://github.com/zuhaf5588/devOps-zf.git
     echo " cloning the code from git repository"
         }
 
