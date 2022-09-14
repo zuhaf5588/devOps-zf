@@ -11,10 +11,23 @@ stages {
     echo " cloning the code from git repository"
         }
 
-
+ stage('Build') {
+ 
+   steps{
+   echo "Building the application"
       }
 
 
 
    }
+    
+    
+    
+    
+    
+    
     }
+}    
+    
+    
+    
